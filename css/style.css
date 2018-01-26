@@ -21,7 +21,7 @@ font-family: 'Lato', sans-serif;
 header{
 background-image: url(../images/banner.png);
     background-size: cover;
-    padding: 110px 0;
+    padding:0;
     position: relative;
     margin-bottom: 50px;
 }
@@ -59,7 +59,7 @@ nav ul li a:hover{}
 .banner-content h1{
 	font-size: 45px;
     color: white;
-    padding: 40px;
+    padding: 0px;
 }
 .banner-content span{
 	color: #f7600e
@@ -68,7 +68,7 @@ nav ul li a:hover{}
 	    font-size: 20px;
     margin-bottom: 95px;
     color: white;
-    padding: 20px;
+    padding: 0px;
 }
 .banner-content a{background: #f7600e;
     border: 1px solid #f7600e;
@@ -99,11 +99,11 @@ nav ul li a:hover{}
 }
 .heading h1{
 	font-size: 45px;
-    padding: 40px;
+    padding: 0px;
 }
 .heading p{
 	    font-size: 20px;
-    padding: 10px;
+    padding: 0px;
     margin-bottom: 80px;
 }
 .heading span{
@@ -167,7 +167,7 @@ nav ul li a:hover{}
 .contact-section {
 	background-image: url(../images/contact_background.png);
     background-size: cover;
-    padding: 140px;
+    padding: 0px;
     position: relative;
 }
 .heading span{
@@ -181,7 +181,7 @@ nav ul li a:hover{}
 footer{
 	background-image: url(../images/footer.png);
 	background-size: cover;
-	    padding: 18px;
+	    padding: 0px;
 
 }
 
