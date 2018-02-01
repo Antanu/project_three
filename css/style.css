@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 *{
 	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
-
 }
 body{
 font-family: 'Lato', sans-serif;
@@ -13,9 +11,10 @@ font-family: 'Lato', sans-serif;
 
 
 .container {
-	width: 1150px;
-    margin: 0 auto;
-    overflow: hidden;
+	width: 1180px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 50px;
 }
 
 header{
@@ -36,7 +35,7 @@ background-image: url(../images/banner.png);
 
 nav{
 	width: 95%;
-    float: left;
+	float: left;
 }
 nav ul{
 	text-align: right;
@@ -46,6 +45,7 @@ nav ul li{
     display: inline-block;
 }
 nav ul li a{
+	text-decoration: none;
 	color: white;
     padding: 5px
 }
@@ -55,11 +55,14 @@ nav ul li a:hover{}
 .banner-content {
 	    text-align: center;
 	    padding: 65px;
+	    margin-bottom: 60px;
 }
 .banner-content h1{
 	font-size: 45px;
-    color: white;
-    padding: 0px;
+	color: white;
+	padding: 0px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 .banner-content span{
 	color: #f7600e
@@ -70,13 +73,14 @@ nav ul li a:hover{}
     color: white;
     padding: 0px;
 }
-.banner-content a{background: #f7600e;
+.banner-content a{
+    background: #f7600e;
     border: 1px solid #f7600e;
     color: white;
     padding: 15px 60px;
     border-radius: 50px;
     font-size: 16px;
-
+    text-decoration: none;
 }
 .arrow i{
 	color: white;
@@ -104,7 +108,7 @@ nav ul li a:hover{}
 .heading p{
 	    font-size: 20px;
     padding: 0px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 .heading span{
 	color: #f7600e
@@ -139,6 +143,7 @@ nav ul li a:hover{}
     transform: translate(-50% );
     left: 50.15%;
     bottom: 0%;
+        text-decoration: none;
 
 }
 .portfolio-section {
